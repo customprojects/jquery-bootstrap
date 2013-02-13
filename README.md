@@ -1,2 +1,2 @@
-jquery-bootsrap
+Grails jQuery & Bootstrap
 ===============
