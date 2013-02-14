@@ -30,4 +30,5 @@ Make sure your layout be as follows<br>
 	</body>
 </html>
 ```
-Then you can begin use all components provides by jquery and bootstrap
+Then you can begin use all components provides by jquery and bootstrap.<br>
+In future versions add a complete tag lib to display all twitter bootstrap components
