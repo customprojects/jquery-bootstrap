@@ -9,7 +9,7 @@ Installation
 grails insttall-plugin jquery-bootstrap
 Usage
 ===============
-This plugin provide a tag lib class with 2 tags: cssResources and jsResources
-cssResources: Load all needed styles for jquery-ui and bootstrap.
+This plugin provide a tag lib class with 2 tags: cssResources and jsResources\n
+cssResources: Load all needed styles for jquery-ui and bootstrap.\n
 jsResources: Load all needed js files.
 
