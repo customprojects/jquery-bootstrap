@@ -12,10 +12,10 @@ class JqueryBootstrapGrailsPlugin {
 
     // TODO Fill in these fields
     def title = "Jquery Bootstrap Plugin" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
+    def author = "Ariel Hernandez Musa"
+    def authorEmail = "arielhm@inca.edu.cu"
     def description = '''\
-Brief summary/description of the plugin.
+This plugin provides a full integration of grails with jquery and bootstrap
 '''
 
     // URL to the plugin's documentation
