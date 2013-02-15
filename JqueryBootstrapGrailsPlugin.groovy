@@ -1,6 +1,6 @@
 class JqueryBootstrapGrailsPlugin {
     def version = "0.1"
-    def grailsVersion = "2.1 > *"
+    def grailsVersion = "2.0 > *"
     def title = "Jquery Bootstrap Plugin"
     def author = "Ariel Hernandez Musa"
     def authorEmail = "arielhm@inca.edu.cu"
