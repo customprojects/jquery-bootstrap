@@ -1,4 +1,4 @@
-package org.grail.plugins.jquerybootstrap
+package grails.plugin.jquerybootstrap
 
 class JQueryBootStrapTagLib {
 	static namespace = "jb"
