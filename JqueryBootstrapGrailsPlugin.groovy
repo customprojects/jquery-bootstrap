@@ -6,4 +6,8 @@ class JqueryBootstrapGrailsPlugin {
     def authorEmail = "arielhm@inca.edu.cu"
     def description = 'This plugin provides a full integration of Grails with JQuery and Bootstrap'
     def documentation = "http://grails.org/plugin/jquery-bootstrap"
+
+    def license = "APACHE"
+    def issueManagement = [system: "GitHub", url: "https://github.com/arielhm888/jquery-bootstrap/issues"]
+    def scm = [url: "https://github.com/arielhm888/jquery-bootstrap"]
 }
