@@ -1,5 +1,6 @@
 *.log
 /target
+/target-eclipse
 /docs
 /grails-*.zip
 /plugin.xml
