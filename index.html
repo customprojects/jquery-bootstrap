@@ -1,49 +1,75 @@
-<!DOCTYPE html>
 <html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+		<title>JQuery</title>
+		<meta name="description" content="plugin para grails">
+	    <meta name="author" content="Ariel Hernández Musa">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+		<link href="css/docs.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="navbar-inner">
+			<div class="container">
+			  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </a>
+			  <a class="brand" href="http://twitter.github.com/bootstrap/examples/hero.html#">jQuery Bootstrap</a>
+			  <div class="nav-collapse collapse">
+				<ul class="nav">
+				  <li class="active"><a href="http://twitter.github.com/bootstrap/examples/hero.html#">Home</a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="jumbotron subhead">
+			<div class="container">
+				<h1>jQuery Bootstrap</h1>
+				<p>grails - jquery - jquery-ui - bootstrap</p>
+			</div>
+		</div>
+		<div class="container">
+			<h1>Description</h1>
+			<p>This plugin provides a full integration of grails with latest versions of jquery, jquery-ui and twitter bootstrap</p>
+			<h1>Dependency</h1>
+			<p>compile ":jquery-bootstrap:0.1"</p>
+			<h1>Installation</h1>
+			<p>grails insttall-plugin jquery-bootstrap</p>
+			<h1>Usage</h1>
+			<p>This plugin provide a tag lib class with 1 tags: resources<br>
+				resources: Load all needed styles and js files for jquery-ui and bootstrap.<br></p>
+				<br>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Jquery-bootsrap : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Grails Jquery & Bootstrap</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/arielhm888/jquery-bootsrap">View on GitHub</a>
-
-          <h1 id="project_title">Grails Jquery & Bootstrap</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/arielhm888/jquery-bootsrap/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/arielhm888/jquery-bootsrap/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>Grails jQuery &amp; Bootstrap</h1>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Jquery-bootsrap maintained by <a href="https://github.com/arielhm888">arielhm888</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+			Make sure your layout be as follows<br>
+			<xmp>
+			<!DOCTYPE html>
+				<head>
+				<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+				<title><g:layoutTitle default="Grails"/></title><br>
+					<!-- ... -->
+					<jb:resources/>
+				</head>
+				<body>
+					<!-- ... -->
+				</body>
+			</html>
+			</xmp>
+			<p>Then you can begin use all components provides by jquery and bootstrap.<br>
+			In future versions add a complete tag lib to display all twitter bootstrap components</p>
+		</div>
+		
+		<!-- load scripts here for fast page load -->
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+	<body>
 </html>
